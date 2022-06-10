@@ -1,0 +1,124 @@
+.App {
+    min-height: 100vh;
+}
+
+.color {
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container-main {
+    width: 100%;
+    min-height: 8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 0;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    margin: 4rem 0;
+}
+
+.formElement {
+    max-width: 25rem;
+    width: 100%;
+    min-height: 35%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading-bud {
+    margin-bottom: 2rem;
+}
+
+.alert-field {
+    width: 100%;
+    height: 2rem;
+
+}
+
+.inputGrosary {
+    width: 65%;
+    padding: 0.3rem auto;
+    font-size: 1.2rem;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.5);
+    outline: none;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    margin-bottom: 1.5rem;
+    color: var(--clr-grey-5);
+}
+
+.grocery-list,
+.form-control {
+    width: 80%;
+}
+
+.submitBtn {
+    color: rgb(0, 46, 0);
+    background: transparent;
+    border: 1px solid rgb(0, 46, 0);
+    border-radius: 5px;
+    padding-inline: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.article-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit-btn,
+.delete-btn {
+    background: transparent;
+    border: none;
+}
+
+
+.alert-msg {
+    display: grid;
+    place-items: center;
+    background-color: rgb(255, 199, 108);
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+
+.danger {
+    background-color: rgb(253, 132, 132);
+}
+
+.sussess {
+    background-color: rgb(68, 142, 68);
+}
+
+.clear {
+    background-color: rgb(255, 199, 108);
+}
+
+.editedcolor {
+    background-color: rgba(68, 142, 68, 0.5);
+}
+
+@media screen and (min-width:800px) {
+    .inputGrosary {
+        width: 75%;
+    }
+}
