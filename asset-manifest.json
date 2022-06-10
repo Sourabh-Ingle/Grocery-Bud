@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Grocery-Bud/static/css/main.5926acfb.css",
+    "main.js": "/Grocery-Bud/static/js/main.b4b86702.js",
+    "static/js/787.17c43eeb.chunk.js": "/Grocery-Bud/static/js/787.17c43eeb.chunk.js",
+    "static/media/logo.svg": "/Grocery-Bud/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Grocery-Bud/index.html",
+    "main.5926acfb.css.map": "/Grocery-Bud/static/css/main.5926acfb.css.map",
+    "main.b4b86702.js.map": "/Grocery-Bud/static/js/main.b4b86702.js.map",
+    "787.17c43eeb.chunk.js.map": "/Grocery-Bud/static/js/787.17c43eeb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5926acfb.css",
+    "static/js/main.b4b86702.js"
+  ]
+}
